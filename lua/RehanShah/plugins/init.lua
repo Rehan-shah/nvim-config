@@ -1,0 +1,8 @@
+require("RehanShah.plugins.treesitter")
+require("RehanShah.plugins.telescope")
+require("RehanShah.plugins.undotree")
+require("RehanShah.plugins.comment")
+require("RehanShah.plugins.format-on-save")
+require("RehanShah.plugins.lsp")
+require("RehanShah.plugins.trouble")
+require("RehanShah.plugins.bufferline")
