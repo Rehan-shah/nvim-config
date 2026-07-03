@@ -6,7 +6,7 @@ return {
         local builtin = require('telescope.builtin')
         vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
         vim.keymap.set('n', '<leader>fg', builtin.git_files, {})
-        vim.keymap.set('n', '<leader>fs', builtin.grep_string, {})
+        vim.keymap.set('n', '<leader>fs', builtin.live_grep, {})
         -- builtin.grep_string({ search = vim.fn.input("Grep > ") });
         -- end)
     end
